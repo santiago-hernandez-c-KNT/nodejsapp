@@ -3,8 +3,7 @@ job('Aplicacion Node.js Docker DSL') {
     scm {
         git('https://github.com/santiago-hernandez-c-KNT/nodejsapp.git', 'main') { node ->
             node / gitConfigName('santiago-hernandez-c-KNT')
-            node / gitConfigEmail('santiago.hernandez.c@konecta-group.com
-')
+            node / gitConfigEmail('santiago.hernandez.c@konecta-group.com')
         }
     }
     triggers {
